@@ -5,7 +5,7 @@
 * 建立`Development xcconfig`
 * ![Development設定檔](./images/fig.1.png)
 * 建立`Production xcconfig`
-* ![Production設定檔](./images/fig.2.png)
+* ![Production設定檔](./images/fig.1-2.png)
 
 ### 2. 設定Xcode Project的Configurations
 

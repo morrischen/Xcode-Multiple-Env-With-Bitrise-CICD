@@ -44,7 +44,7 @@
 
 ### 7. 設定Workflows
 
-* 建立`deployDevelopment`Workflow，參考[網站]([https://github.com/morrischen/Gitlab-Bitrise-CICD/tree/main?tab=readme-ov-file#14-%E8%A8%AD%E5%AE%9Acodesign](https://github.com/morrischen/Gitlab-Bitrise-CICD/tree/main?tab=readme-ov-file#13-%E8%A8%AD%E5%AE%9Aworkflows))
+* 建立`deployDevelopment`Workflow，參考[網站](https://github.com/morrischen/Gitlab-Bitrise-CICD/tree/main?tab=readme-ov-file#13-%E8%A8%AD%E5%AE%9Aworkflows)
 * 刪除`Certificate and profile installer`步驟
 * ![DeployDevelopment Workflow](./images/fig.7-1.png)
 * 設定`Xcode Archive & Export for iOS`中的參數
@@ -66,3 +66,12 @@
 * `Stage-*`: 代表Stage-開頭的tag會觸發`deployStage workflow`
 * `Dev-*`: 代表Dev-開頭的tag會觸發`deployDevelopment workflow`
 * ![Triggers rule](./images/fig.8.png)
+
+### 9. 測試不同環境部署
+
+* 測試`Development`、`Stage`、`Production`環境部署，並`Deploy to App Store Connect`
+* ![Development Stage Build](./images/fig.9-1.png)
+* ![Production Build](./images/fig.9-2.png)
+* `Xcode Archive & Export for iOS`Log中顯示Bitrise透過api-key方式下載certificates
+* ![Using Apple Service connection with API key](./images/fig.9-3.png)
+* ![Downloading certificates](./images/fig.9-4.png)

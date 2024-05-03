@@ -34,3 +34,10 @@
 * Bitrise設定`API Key`與`App Store Connect`
 * ![Bitrise API Key](./images/fig.5-1.png)
 * ![Bitrise App Store Connect](./images/fig.5-2.png)
+
+### 6. 設定Bitrise Code Signing
+
+* 匯出Certificate如[網站](https://github.com/morrischen/Gitlab-Bitrise-CICD/tree/main?tab=readme-ov-file#14-%E8%A8%AD%E5%AE%9Acodesign)
+* 上傳`Development`與`Distribution`Certificate，建議上傳這兩個Certificate，Bitrise才不會產生新的Certificate
+* 因為使用Bitrise `Automatic code signing`，無須上傳Provisioning Profile檔案
+* ![Bitrise Certificate](./images/fig.6.png)

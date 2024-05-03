@@ -22,3 +22,7 @@
 * 設定`Development Scheme`
 * ![Edit Development Scheme](./images/fig.3-3.png)
 * ![Edit Development Scheme](./images/fig.3-4.png)
+
+### 4. 設定Xcode Signing
+* 設定Signing為`Automatically Manage Signing`
+* ![Xcode Signing](./images/fig.4.png)

@@ -62,9 +62,9 @@
 ### 8. 設定Triggers
 
 * Tag規則如下
-* `V-*`: 代表V-開頭的tag會觸發`deployProduction workflow`
-* `Stage-*`: 代表Stage-開頭的tag會觸發`deployStage workflow`
-* `Dev-*`: 代表Dev-開頭的tag會觸發`deployDevelopment workflow`
+  - `V-*`: 代表V-開頭的tag會觸發`deployProduction workflow`
+  - `Stage-*`: 代表Stage-開頭的tag會觸發`deployStage workflow`
+  - `Dev-*`: 代表Dev-開頭的tag會觸發`deployDevelopment workflow`
 * ![Triggers rule](./images/fig.8.png)
 
 ### 9. 測試不同環境部署

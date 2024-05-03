@@ -48,13 +48,13 @@
 * 刪除`Certificate and profile installer`步驟
 * ![DeployDevelopment Workflow](./images/fig.7-1.png)
 * 設定`Xcode Archive & Export for iOS`Configuration
-* `Scheme`: 設定為第三步驟建立的Scheme，例如: xxx-iOS-Development
-* `Distribution method`: 設定為app-store
+  - `Scheme`: 設定為第三步驟建立的Scheme，例如: xxx-iOS-Development
+  - `Distribution method`: 設定為app-store
 * 設定`Xcodebuild Configuration`
-* `Build Configuration`: 設定為第二步驟建立的Configuration，例如: Debug
+  - `Build Configuration`: 設定為第二步驟建立的Configuration，例如: Debug
 * ![DeployDevelopment Workflow Xcodebuild Configuration](./images/fig.7-2.png)
 * 設定`Automatic Code Signing`
-* `Automatic code signing method`: 設定為api-key方式
+  - `Automatic code signing method`: 設定為api-key方式
 * ![DeployDevelopment Workflow Automatic Code Signing](./images/fig.7-3.png)
 * `deployProduction` Workflow 設置大致相同
 * ![DeployProduction Workflow](./images/fig.7-4.png)

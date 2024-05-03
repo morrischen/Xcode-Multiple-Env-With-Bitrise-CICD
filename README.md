@@ -47,12 +47,14 @@
 * 建立`deployDevelopment`Workflow，參考[網站]([https://github.com/morrischen/Gitlab-Bitrise-CICD/tree/main?tab=readme-ov-file#14-%E8%A8%AD%E5%AE%9Acodesign](https://github.com/morrischen/Gitlab-Bitrise-CICD/tree/main?tab=readme-ov-file#13-%E8%A8%AD%E5%AE%9Aworkflows))
 * 刪除`Certificate and profile installer`步驟
 * ![DeployDevelopment Workflow](./images/fig.7-1.png)
-* 設定Xcode Archive & Export for iOS中的參數
+* 設定`Xcode Archive & Export for iOS`中的參數
 * `Scheme`: 設定為第三步驟建立的Scheme，例如: xxx-iOS-Development
 * `Distribution method`: 設定為app-store
-* 設定Xcodebuild Configuration
+* 設定`Xcodebuild Configuration`
 * `Build Configuration`: 設定為第二步驟建立的Configuration，例如: Debug
 * ![DeployDevelopment Workflow Xcodebuild Configuration](./images/fig.7-2.png)
-* 設定Automatic Code Signing
+* 設定`Automatic Code Signing`
 * `Automatic code signing method`: 設定為api-key方式
 * ![DeployDevelopment Workflow Automatic Code Signing](./images/fig.7-3.png)
+* `deployProduction` Workflow 設定大致相同
+* ![DeployProduction Workflow](./images/fig.7-4.png)

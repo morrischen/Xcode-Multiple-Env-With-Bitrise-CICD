@@ -40,6 +40,7 @@
 * 匯出Certificate如[網站](https://github.com/morrischen/Gitlab-Bitrise-CICD/tree/main?tab=readme-ov-file#14-%E8%A8%AD%E5%AE%9Acodesign)
 > [!NOTE]
 > 建議同時上傳`Development`與`Distribution`Certificate，這樣Bitrise就不會產生新的Certificate
+
 > [!CAUTION]
 > 因為使用Bitrise `Automatic code signing`，無須上傳Provisioning Profile檔案
 * ![Bitrise Certificate](./images/fig.6.png)

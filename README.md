@@ -3,7 +3,7 @@
 ### 1. 建立Xcode環境設定檔
 
 * 建立`Development xcconfig`
-* ![Development設定檔](./image/fig.1)
+* ![Development設定檔](./images/fig.1)
 * 建立`Production xcconfig`
-* ![Production設定檔](./image/fig.2)
+* ![Production設定檔](./images/fig.2)
 

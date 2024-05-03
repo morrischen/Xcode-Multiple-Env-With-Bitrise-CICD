@@ -32,5 +32,5 @@
 * 設定方式如[網站](https://github.com/morrischen/Gitlab-Bitrise-CICD/tree/main?tab=readme-ov-file#11-%E8%A8%AD%E5%AE%9Abitrise%E7%B6%81%E5%AE%9Aapple-service-connection)
 * App Store Connect API金鑰的存取權限需設定為`管理者`權限
 * Bitrise設定`API Key`與`App Store Connect`
-* ![Bitrise API Key](./images/fig.5-1-1.png)
-* ![Bitrise App Store Connect](./images/fig.5-2-2.png)
+* ![Bitrise API Key](./images/fig.5-1.png)
+* ![Bitrise App Store Connect](./images/fig.5-2.png)
